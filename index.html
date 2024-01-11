@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1,shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-...">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <title>VACCATION</title>
+  <style>
+    body{
+      font-family:arial,san-serif;
+    }
+    #paragraph{
+     text-align: justifiy;
+     margin:10px 0; 
+    }
+    .image-container {
+            position: relative;
+            text-align: center;
+            color: white; /* Text color */
+        }
+
+        /* Style for the image */
+        .image-container img {
+            width: 100%; /* Make sure the image takes up the full width of the container */
+            height: auto; /* Maintain aspect ratio */
+            display: block;
+        }
+
+        /* Style for the text */
+        .image-text {
+            position: absolute;
+            top: 50%; /* Position the text in the vertical center */
+            left: 50%; /* Position the text in the horizontal center */
+            transform: translate(-50%, -50%); /* Center the text precisely */
+            font-size: 24px; /* Adjust the font size as needed */
+            font-weight: bold; /* Adjust the font weight as needed */
+            /* You can add more styles here based on your preferences */
+        }
+  </style>
+  <script src="./js/jquery-3.7.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <img src="/waterfall.jpg" alt="waterfall logo" width="300" height="200">
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+              aria-expanded="false">
+              Dropdown
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">WATER</a></li>
+              <li><a class="dropdown-item" href="#">NATURE</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">support</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " href="#">contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <p id="paragraph">
+    <h4>About us</h4>
+    The beauty of water is an exquisite manifestation of nature's artistry. From the serene ripples of a placid lake to
+    the thunderous cascade of a waterfall, water embodies a captivating spectrum of forms and moods. Its reflective
+    surfaces mirror the ever-changing skies, creating mesmerizing panoramas that evoke a sense of tranquility and
+    wonder. The rhythmic dance of raindrops on leaves, the meandering flow of rivers, and the vast expanses of oceans
+    each contribute to the intricate tapestry of nature's beauty. Water sustains life, offering a habitat for diverse
+    ecosystems, and its sheer abundance provides a soothing backdrop to the symphony of existence. Whether as
+    crystalline icicles adorning winter landscapes or as glistening dewdrops on blades of grass in the early morning
+    sun, water is a testament to the sublime elegance woven into the fabric of our natural world.
+  </p>
+  </div>
+  <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x900/?nature,beach" class="d-block w-90" alt="beach">
+      </div>
+      <div class="carousel-item active">
+        <img src="https://source.unsplash.com/1600x900/?nature,water" class="d-block w-90" alt="waterfall">
+      </div>
+      <div class="carousel-item">
+        <img src="https://source.unsplash.com/1600x900/?nature,NATURE" class="d-block w-90" alt="NATURE">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="card text-center">
+    <div class="card-header">
+      <ul class="nav nav-tabs card-header-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="true" href="#">Active</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+      </ul>
+    </div>
+    
+   
+
+<div class="image-container">
+    <img src="/cascade-boat.jpg" alt="Your Image">
+    <div class="image-text">Enjoy your vacation in "WATER LILY RESORT</div>
+</div>
+
+</body>
+</html>
